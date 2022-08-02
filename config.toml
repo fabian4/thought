@@ -1,0 +1,19 @@
+baseURL = "https://example.com"
+languageCode = "en-us"
+title = "My thoughts"
+theme = "yinyang"
+DefaultContentLanguage = "cn"
+
+[author]
+  name = "Fabian Bao"
+  homepage = "https://joway.io/"
+
+[languages]
+  [languages.cn]
+    contentDir = "content/"
+    languageName = "Chinese"
+    weight = 0
+
+[[params.socials]]
+name = "About"
+link = ""
